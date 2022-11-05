@@ -7,3 +7,7 @@ height = int(input("Enter a height amount: "))
 volume = length * width * height
 print(f"The calculated volume is: {volume:,.2f}")
 
+if volume > 500:
+    print("Volume accepted")
+else:
+    print("Volume not accepted")
